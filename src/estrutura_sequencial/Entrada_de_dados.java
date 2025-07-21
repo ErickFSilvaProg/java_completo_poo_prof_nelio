@@ -23,7 +23,7 @@ public class Entrada_de_dados {
 		
 		
 		// Variaveis:
-		String varString, s1, s2, s3;
+		String varString;
 		int varInt;
 		double varDouble;
 		char varChar;
