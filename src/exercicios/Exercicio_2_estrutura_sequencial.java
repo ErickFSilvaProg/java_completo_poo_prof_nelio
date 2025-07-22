@@ -1,9 +1,9 @@
-package estrutura_sequencial;
+package exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio_2 {
+public class Exercicio_2_estrutura_sequencial {
 	
 	public static void main(String[] args) {
 		
