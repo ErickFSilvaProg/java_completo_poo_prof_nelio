@@ -1,4 +1,4 @@
-package estrutura_sequencial;
+package estrutura_condicional;
 
 public class Expressoes_logicas {
 	
