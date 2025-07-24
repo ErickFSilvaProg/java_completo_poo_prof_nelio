@@ -1,4 +1,4 @@
-package secao05_estrutura_condicional;
+package secao_05_estrutura_condicional;
 
 public class Aula034_expressoes_logicas {
 	

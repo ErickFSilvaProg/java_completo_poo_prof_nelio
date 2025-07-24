@@ -1,4 +1,4 @@
-package secao05_estrutura_condicional;
+package secao_05_estrutura_condicional;
 
 import java.util.Locale;
 import java.util.Scanner;

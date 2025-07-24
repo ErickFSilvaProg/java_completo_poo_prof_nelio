@@ -1,4 +1,4 @@
-package secao04_estrutura_sequencial;
+package secao_04_estrutura_sequencial;
 
 public class EspressoesAritmeticas {
 	
