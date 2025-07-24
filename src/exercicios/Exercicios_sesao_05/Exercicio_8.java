@@ -70,6 +70,8 @@ public class Exercicio_8 {
 			System.out.printf("R$ %.2f%n", valorIR);
 		}
 		
+		scan.close();
+		
 	}
 
 }

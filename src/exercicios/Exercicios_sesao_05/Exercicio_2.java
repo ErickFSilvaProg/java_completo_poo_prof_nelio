@@ -23,6 +23,8 @@ public class Exercicio_2 {
 			System.out.println("IMPAR");
 		}
 		
+		sc.close();
+		
 	}
 
 }

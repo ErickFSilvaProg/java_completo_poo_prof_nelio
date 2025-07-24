@@ -32,6 +32,8 @@ public class Exercicio_3 {
 			System.out.println("NÃO SÃO MÚLTIPLOS");
 		}
 		
+		sc.close();
+		
 	}
 
 }
