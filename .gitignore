@@ -27,5 +27,5 @@ replay_pid*
 .classpath
 .project
 .settings/
-bin/
-bin/exercicios/
+bin/*
+bin/exercicios/*
