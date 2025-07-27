@@ -3,7 +3,7 @@ package secao_06_estruturas_repetitivas;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula045_estrutura_repetitiva_while {
+public class Aula045_estrutura_while {
 
 	public static void main(String[] args) {
 		
