@@ -16,18 +16,20 @@ public class Exercicio_for_02 {
 		 * e "out" para fora do intervalo).
 		 */
 		
+		// Variáveis:
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Valor de 'N': ");
-		int n = sc.nextInt();
-		
+		int n, x;
 		int in = 0;
 		int out = 0;
 		
-		for (int i = 0; i < n; i++) {
+		// Programa:
+		System.out.print("Número de iterações: ");
+		n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
 			
-			System.out.print("Valor de 'X': ");
-			int x = sc.nextInt();
+			System.out.print("Digite o " + i + "º número: ");
+			x = sc.nextInt();
 			
 			if (x >= 10 && x <= 20) {
 				
@@ -42,6 +44,7 @@ public class Exercicio_for_02 {
 		System.out.println(in + " in");
 		System.out.println(out + " out");
 		
+		// Fecha o Scanner:
 		sc.close();
 		
 	}
