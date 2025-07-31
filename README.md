@@ -2,12 +2,12 @@
 > Professor Nélio Alves
 
 - [x] 1. Introdução
-- [ ] 2. Conceitos de programação
-- [ ] 3. Introdução à linguagem Java
-- [ ] 4. Estrutura sequencial
-- [ ] 5. Estrutura condicional
-- [ ] 6. Estruturas repetitivas
-- [ ] 7. Outros tópicos básicos sebre Java
+- [x] 2. Conceitos de programação
+- [x] 3. Introdução à linguagem Java
+- [x] 4. Estrutura sequencial
+- [x] 5. Estrutura condicional
+- [x] 6. Estruturas repetitivas
+- [x] 7. Outros tópicos básicos sebre Java
 - [ ] 8. Introdução à Programação Orientada a Objetos
 - [ ] 9. Construtores, palavras this, sobrecarga, encapsulamento
 - [ ] 10. Comportamento de memória, arrays, listas
