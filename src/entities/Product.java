@@ -1,7 +1,7 @@
 package entities;
 
 public class Product {
-	
+
 //	Atributos:
 	public String name;
 	public double price;
@@ -18,6 +18,17 @@ public class Product {
 	
 	public void removeProducts(int quantity) {
 		this.quantity -= quantity;
+	}
+	
+	// Sobrepondo a operação padrão 'toString()' da classe 'object':
+	public String toString() {
+		return name 
+				+ ", $ " 
+				+ String.format("%.2f", this.price) 
+				+ ", " 
+				+ this.quantity 
+				+ " units, Total: $ " 
+				+ String.format("%.2f", this.totalValueInStock());
 	}
 
 }

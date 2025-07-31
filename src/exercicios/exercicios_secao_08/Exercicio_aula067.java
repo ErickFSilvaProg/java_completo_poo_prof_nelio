@@ -32,17 +32,28 @@ public class Exercicio_aula067 {
 		 * 		+ totalValueInStock() : double
 		 * 		+ addProducts(quantity : int) : void
 		 * 		+ removeProducts(quantity : int) : void
+		 * 
+		 * 
+		 * Toda classe em Java é uma subclasse da 'classe Object'.
+		 * 
+		 * Object possui os seguintes métodos:
+		 * 
+		 * 		getClass - retorna o tipo do objeto.
+		 * 		equals - compara se o objeto é igual a outro.
+		 * 		hashCode - retorna um código hash do objeto.
+		 * 		toString - converte o objeto para string.
 		 */
 		
 //		Bibliotecas:
 		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
 		
 //		Variáveis:
+		Scanner sc = new Scanner(System.in);
 		Product product = new Product();
+//		int quantity;
 		
 //		Programa:
-		System.out.println("Enter product data");
+		System.out.println("Enter product data:");
 		
 		System.out.print("Name: ");
 		product.name = sc.nextLine();
@@ -53,10 +64,29 @@ public class Exercicio_aula067 {
 		System.out.print("Quantity in stock: ");
 		product.quantity = sc.nextInt();
 		
-//		Testando:
-		System.out.printf("%s, %.2f, %d", product.name, product.price, product.quantity);
+		// Visualiza produto:
+		System.out.println();
+		System.out.println("Product data: " + product);
 		
-//		Fecha o Scanner:
+		// Entrada no estoque:
+		System.out.println();
+		System.out.print("Enter the number of product to be added in stock: ");
+		product.addProducts(sc.nextInt());
+		
+		// Visualiza produto:
+		System.out.println();
+		System.out.println("Product data: " + product);
+		
+		// Saída no estoque:
+		System.out.println();
+		System.out.print("Enter the number of product to be removed in stock: ");
+		product.removeProducts(sc.nextInt());
+		
+		// Visualiza produto:
+		System.out.println();
+		System.out.println("Product data: " + product);
+		
+		// Fecha o Scanner:
 		sc.close();
 	}
 
