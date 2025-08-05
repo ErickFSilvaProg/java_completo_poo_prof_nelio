@@ -49,20 +49,23 @@ public class Exercicio_aula067 {
 		
 //		Variáveis:
 		Scanner sc = new Scanner(System.in);
-		Product product = new Product();
-//		int quantity;
+		String name;
+		double price;
+		int quantity;
 		
 //		Programa:
 		System.out.println("Enter product data:");
 		
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
+		name = sc.nextLine();
 		
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
+		price = sc.nextDouble();
 		
 		System.out.print("Quantity in stock: ");
-		product.quantity = sc.nextInt();
+		quantity = sc.nextInt();
+		
+		Product product = new Product(name, price, quantity);
 		
 		// Visualiza produto:
 		System.out.println();
