@@ -8,12 +8,22 @@ public class Product {
 	public int quantity;
 	
 	
-//	Construtor:
+//	Construtores: Sobrecarga.
+	public Product() {
+		// Construtor padrão.
+	}
+	
 	public Product(String name, double price, int quantity) {
 		
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
+	}
+	
+	public Product(String name, double price) {
+		
+		this.name = name;
+		this.price = price;
 	}
 	
 	
