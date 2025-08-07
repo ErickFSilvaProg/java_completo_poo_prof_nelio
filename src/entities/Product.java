@@ -3,9 +3,9 @@ package entities;
 public class Product {
 
 //	Atributos:
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
 	
 //	Construtores: Sobrecarga.
@@ -14,22 +14,45 @@ public class Product {
 	}
 	
 	public Product(String name, double price, int quantity) {
-		
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
 	}
 	
 	public Product(String name, double price) {
-		
 		this.name = name;
 		this.price = price;
 	}
 	
 	
+//	Getters and Setters:
+	// name:
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	// price:
+	public double getPrice() {
+		return this.price;
+	}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	// quantity:
+	public int getQuantity() {
+		return this.quantity;
+	}
+	
+	
 //	Métodos:
 	public double totalValueInStock() {
-		return price * quantity;
+		return this.price * this.quantity;
 	}
 	
 	public void addProducts(int quantity) {

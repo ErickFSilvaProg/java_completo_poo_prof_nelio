@@ -1,11 +1,11 @@
-package exercicios.exercicios_secao_08;
+package application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 import entities.Product;
 
-public class Exercicio_aula067 {
+public class Program {
 	
 	public static void main(String[] args) {
 		
@@ -46,15 +46,18 @@ public class Exercicio_aula067 {
 		
 //		Bibliotecas:
 		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
 		
 //		Variáveis:
-		Scanner sc = new Scanner(System.in);
+		Product product;
 		String name;
 		double price;
 		int quantity;
 		
+		
 //		Programa:
-		System.out.println("Enter product data:");
+		System.out.println("Enter product data: ");
 		
 		System.out.print("Name: ");
 		name = sc.nextLine();
@@ -62,35 +65,32 @@ public class Exercicio_aula067 {
 		System.out.print("Price: ");
 		price = sc.nextDouble();
 		
-		System.out.print("Quantity in stock: ");
+		product = new Product(name, price);
+		
+		product.setName("Celular");
+		product.setPrice(1200.00);
+		
+		System.out.println();
+		System.out.print("Product data: " + product);
+		
+		System.out.println("\n");
+		System.out.print("Enter the number of products to be added in stock: ");
 		quantity = sc.nextInt();
+		product.addProducts(quantity);
 		
-		Product product = new Product(name, price, quantity);
+		System.out.print("Updated data: " + product);
 		
-		// Visualiza produto:
-		System.out.println();
-		System.out.println("Product data: " + product);
+		System.out.println("\n");
+		System.out.print("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
 		
-		// Entrada no estoque:
-		System.out.println();
-		System.out.print("Enter the number of product to be added in stock: ");
-		product.addProducts(sc.nextInt());
+		System.out.print("Updated data: " + product);
 		
-		// Visualiza produto:
-		System.out.println();
-		System.out.println("Product data: " + product);
 		
-		// Saída no estoque:
-		System.out.println();
-		System.out.print("Enter the number of product to be removed in stock: ");
-		product.removeProducts(sc.nextInt());
-		
-		// Visualiza produto:
-		System.out.println();
-		System.out.println("Product data: " + product);
-		
-		// Fecha o Scanner:
+//		Fecha o Scanner:
 		sc.close();
+		
 	}
 
 }
