@@ -16,16 +16,18 @@ public class BankAccountProgram {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		// Variáveis:
-		BankAccount account;
+		// Variables: Variáveis.
+		BankAccount account; // Conta
 		int number; // Número
 		double balance; // Saldo
 		double initialDeposit; // Depósito inicial
+		double depositValue; // Valor do depósito
+		double withdrawValue; // Valor de retirada
 		String holder; // Titular
 		char response; // Resposta
 		
 		
-		// Programa:
+		// Data entry: Entrada de dados.
 		//                Insira o número da conta:
 		System.out.print("Enter account number: ");
 		number = sc.nextInt();
@@ -45,6 +47,41 @@ public class BankAccountProgram {
 			initialDeposit = sc.nextDouble();
 			account = new BankAccount(number, holder, initialDeposit);
 		}
+		else {
+			account = new BankAccount(number, holder);
+		}
+		
+		
+		// Account data: Dados da conta.
+		System.out.println();
+		System.out.println("Account data:");
+		System.out.println(account);
+		
+		
+		// Enter a deposity value: Insira um valor de depósito.
+		System.out.println();
+		System.out.print("Enter a deposit value: ");
+		depositValue = sc.nextDouble();
+		account.deposit(depositValue);
+		
+		
+		// Updated account data: Dados da conta atualizados.
+		System.out.println();
+		System.out.println("Updated account data: ");
+		System.out.println(account);
+		
+		
+		// Enter a withdraw value: Insira um valor de retirada
+		System.out.println();
+		System.out.print("Enter a withdraw value: ");
+		withdrawValue = sc.nextDouble();
+		account.withdraw(withdrawValue);
+		
+		
+		// Updated account data: Dados da conta atualizados.
+		System.out.println();
+		System.out.println("Updated account data: ");
+		System.out.println(account);
 		
 		
 		// Fecha scanner:

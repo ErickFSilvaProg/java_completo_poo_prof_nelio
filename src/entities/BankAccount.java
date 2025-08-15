@@ -9,6 +9,10 @@ public class BankAccount { // Conta Bancária
 	
 	
 //	Construtores:
+	public BankAccount() {
+		// Construtor padrão
+	}
+	
 	public BankAccount(int number, String holder) {
 		this.number = number;
 		this.holder = holder;
@@ -53,6 +57,16 @@ public class BankAccount { // Conta Bancária
 	// Saque:
 	public void withdraw(double amount) { // Saque | Quantia
 		this.balance -= amount + 5.0;
+	}
+	
+	// toString:
+	public String toString() {
+		return "Account "
+				+ number
+				+ ", Holder: "
+				+ holder
+				+ ", Balance: $ "
+				+ String.format("%.2f", balance);
 	}
 
 }
