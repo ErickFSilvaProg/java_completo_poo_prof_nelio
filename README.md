@@ -8,8 +8,8 @@
 - [x] 5. Estrutura condicional
 - [x] 6. Estruturas repetitivas
 - [x] 7. Outros tópicos básicos sebre Java
-- [ ] 8. Introdução à Programação Orientada a Objetos
-- [ ] 9. Construtores, palavras this, sobrecarga, encapsulamento
+- [x] 8. Introdução à Programação Orientada a Objetos
+- [x] 9. Construtores, palavras this, sobrecarga, encapsulamento
 - [ ] 10. Comportamento de memória, arrays, listas
 - [ ] 11. Tópicos especiais em Java: data-hora
 - [ ] 12. Enumerações, composição

@@ -4,7 +4,7 @@ public class BankAccount { // Conta Bancária
 	
 //	Atributos:
 	private int number; // Número
-	private String holder; //  titular
+	private String holder; //  Titular
 	private double balance; // Saldo
 	
 	

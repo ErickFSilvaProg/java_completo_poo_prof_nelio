@@ -17,9 +17,12 @@ public class BankAccountProgram {
 		
 		
 		// Variáveis:
-		int number;
-		double balance;
-		String holder;
+		BankAccount account;
+		int number; // Número
+		double balance; // Saldo
+		double initialDeposit; // Depósito inicial
+		String holder; // Titular
+		char response; // Resposta
 		
 		
 		// Programa:
@@ -34,6 +37,14 @@ public class BankAccountProgram {
 		
 		//                Há um depósito inicial (s/n)?
 		System.out.print("It there an initial deposit (y/n)? ");
+		response = sc.next().charAt(0);
+		
+		if (response == 'y') {
+			//                Insira o valor do depósito inicial:
+			System.out.print("Enter initial deposit value: ");
+			initialDeposit = sc.nextDouble();
+			account = new BankAccount(number, holder, initialDeposit);
+		}
 		
 		
 		// Fecha scanner:

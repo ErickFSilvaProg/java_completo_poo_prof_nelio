@@ -52,7 +52,7 @@ public class Entrada_de_dados {
 		
 		// Para ler 'um caractere':
 		System.out.print("\nDigite uma letra ou palavra: ");
-		varChar = sc.next().charAt(0); // Pegará o primeiro caractere digitado ou da palavra digitada.
+		varChar = sc.next().charAt(0); // Pegará o caractere digitado ou o primeiro caractere da palavra digitada.
 		
 		System.out.println(varChar);
 		
