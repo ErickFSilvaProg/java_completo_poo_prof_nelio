@@ -19,7 +19,7 @@
 - [ ] 16. Interfaces
 - [ ] 17. Generics, set, map
 - [ ] 18. Programação funcional e expressões lambda
-- [ ] 19. Bônus: Nivelamento sobre Git e Github
+- [x] 19. Bônus: Nivelamento sobre Git e Github
 - [ ] 20. Bônus: Acesso a banco de dados com JDBC
 - [ ] 21. Bônus: Java EE - Mapeamento objeto-relacional com JPA/Hibernate
 - [ ] 22. Bônus: Projeto web services com Spring Boot e JPA/Hibernate
