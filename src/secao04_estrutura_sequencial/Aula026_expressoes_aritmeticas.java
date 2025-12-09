@@ -5,7 +5,7 @@ public class Aula026_expressoes_aritmeticas {
 //	Operadores aritméticos:
 	
 	/*
-	 *  (+) -> adição
+	 *  (+) -> adição (ou concatenação)
 	 *  (-) -> subtração
 	 *  (*) -> multiplicação
 	 *  (/) -> divisão
