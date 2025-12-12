@@ -1,6 +1,6 @@
 package secao04_estrutura_sequencial;
 
-public class aula027_variaveis_tipos_basicos {
+public class Aula027_variaveis_tipos_basicos {
 	
 	/**
 	 * - Definição informal:
