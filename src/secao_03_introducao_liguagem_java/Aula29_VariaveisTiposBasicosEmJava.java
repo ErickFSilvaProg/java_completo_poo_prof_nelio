@@ -9,6 +9,14 @@ public class Aula29_VariaveisTiposBasicosEmJava {
 	 * 		É uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
 	 * 
 	 * 
+	 * 		→ Uma variável possui:
+	 * 
+	 * 			• Nome (ou identificador)
+	 * 			• Tipo
+	 * 			• Valor
+	 * 			• Endereço
+	 * 
+	 * 
 	 * 		→ Sintaxe: [tipo] [nome] = [valor inicial]
 	 * 
 	 * 			• Exemplos: int idade = 25;
@@ -16,12 +24,24 @@ public class Aula29_VariaveisTiposBasicosEmJava {
 	 * 					    char sexo = 'F';
 	 * 
 	 * 
-	 * 		→ Uma variáavel possui:
+	 * 		→ Nomes de variáveis:
 	 * 
-	 * 			• Nome (ou identificador)
-	 * 			• Tipo
-	 * 			• Valor
-	 * 			• Endereço
+	 * 			• Não podem começar com dígito: use uma letra ou _
+	 * 			• Não pode ter espaço em branco
+	 * 			• Não usar acentos ou til
+	 * 			• Sugestão: use o padrão "camel case"
+	 * 
+	 * 			→ Errado:
+	 * 
+	 * 				• int 5minutos;
+	 * 				• int salário;
+	 * 				• salário do funcionario;
+	 * 			
+	 * 			→ Certo:
+	 * 
+	 * 				• int _5minutos;
+	 * 				• int salario;
+	 * 				• int salarioDoFuncionario;
 	 * 
 	 */
 	
@@ -63,7 +83,7 @@ public class Aula29_VariaveisTiposBasicosEmJava {
 	 * 			boolean		1 bit			[false, true]						false
 	 * 
 	 * 
-	 * → String - Cadeia de caracteres (palavras ou textos).
+	 * → Tipo String - Cadeia de caracteres (palavras ou textos).
 	 * 
 	 */
 
