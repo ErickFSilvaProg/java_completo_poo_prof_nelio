@@ -1,6 +1,6 @@
 package secao_03_introducao_liguagem_java;
 
-public class Aula29_VariaveisTiposBasicosEmJava {
+public class Aula029_VariaveisTiposBasicosEmJava {
 	
 	/**
 	 * 
