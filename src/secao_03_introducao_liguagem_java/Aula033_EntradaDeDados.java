@@ -20,24 +20,24 @@ public class Aula033_EntradaDeDados {
 	 */
 	
 	public static void main(String[] args) {
-		
-//		Criando o objeto Scanner:
-		Scanner sc = new Scanner(System.in);
-		
-		
-//		Variáveis:
-		String x;
-		
-		
-//		Para ler uma palavra, sem espaço:
-		System.out.print("Digite uma palavra: ");
-		x = sc.next();
-		System.out.println("Você digitou: " + x);
-		
-		
-//		Fecha o Scanner:
-		sc.close();
-		
+			
+	//		Criando o objeto Scanner:
+			Scanner entradaDados = new Scanner(System.in);
+			
+			
+	//		Variáveis:
+			String palavra;
+			
+			
+	//		Para ler uma palavra, sem espaço:
+			System.out.print("Digite uma palavra: ");
+			palavra = entradaDados.next();
+			System.out.println("Você digitou: " + palavra);
+			
+			
+	//		Fecha o Scanner:
+			entradaDados.close();
+			
 	}
 
 }

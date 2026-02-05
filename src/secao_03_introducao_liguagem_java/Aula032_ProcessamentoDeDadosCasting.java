@@ -1,7 +1,5 @@
 package secao_03_introducao_liguagem_java;
 
-import sun.jvm.hotspot.debugger.win32.coff.AuxBfEfRecord;
-
 public class Aula032_ProcessamentoDeDadosCasting {
 	
 	/*
