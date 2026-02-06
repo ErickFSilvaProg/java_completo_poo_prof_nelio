@@ -1,4 +1,4 @@
-package secao_03_introducao_liguagem_java;
+package secao_04_estrutura_sequencial;
 
 public class Aula025_SintaxeSimplificadaJava25 {
 	
