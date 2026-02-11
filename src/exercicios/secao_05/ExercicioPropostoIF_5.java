@@ -3,7 +3,7 @@ package exercicios.secao_05;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioProposto_5 {
+public class ExercicioPropostoIF_5 {
 	
 	/*
 	 * Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item.

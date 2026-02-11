@@ -2,7 +2,7 @@ package exercicios.secao_05;
 
 import java.util.Scanner;
 
-public class ExercicioProposto_4 {
+public class ExercicioPropostoIF_4 {
 	
 	/*
 	 * Leia a hora inicial e a hora final de um jogo.

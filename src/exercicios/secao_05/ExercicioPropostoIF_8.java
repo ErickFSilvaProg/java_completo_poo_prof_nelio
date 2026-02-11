@@ -3,7 +3,7 @@ package exercicios.secao_05;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioProposto_8 {
+public class ExercicioPropostoIF_8 {
 	
 	/*
 	 * Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa. 

@@ -2,7 +2,7 @@ package exercicios.secao_05;
 
 import java.util.Scanner;
 
-public class ExercicioProposto_3 {
+public class ExercicioPropostoIF_3 {
 	
 	/*
 	 * Leia 2 valores inteiros (A e B).

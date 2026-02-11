@@ -3,7 +3,7 @@ package exercicios.secao_05;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioProposto_6 {
+public class ExercicioPropostoIF_6 {
 	
 	/*
 	 * Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo 

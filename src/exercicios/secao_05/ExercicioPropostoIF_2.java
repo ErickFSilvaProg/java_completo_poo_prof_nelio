@@ -2,7 +2,7 @@ package exercicios.secao_05;
 
 import java.util.Scanner;
 
-public class ExercicioProposto_2 {
+public class ExercicioPropostoIF_2 {
 	
 	/*
 	 * Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
