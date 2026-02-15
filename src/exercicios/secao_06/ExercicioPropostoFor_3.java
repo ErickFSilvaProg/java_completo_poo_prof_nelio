@@ -22,18 +22,33 @@ public class ExercicioPropostoFor_3 {
 		Scanner scan = new Scanner(System.in);
 		
 		
-//		Programa:
-		int n = scan.nextInt();
+//		Variáveis globais:
+		int qtdTestes;
 		
-		for (int i = 0; i < n; i++) {
+		
+//		Programa:
+		System.out.print("Quantidade de testes: ");
+		qtdTestes = scan.nextInt();
+		scan.nextLine();
+		
+		for (int i = 1; i <= qtdTestes; i++) {
 			
-			double a = scan.nextDouble();
-			double b = scan.nextDouble();
-			double c = scan.nextDouble();
-			
-			double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
-			
-			System.out.printf("%.1f%n", media);
+			System.out.println(" → " + i + "º caso:");
+				
+				System.out.print("	↪ 1º valor: ");
+				double priValor = scan.nextDouble();
+				scan.nextLine();
+				
+				System.out.print("	↪ 2º valor: ");
+				double segValor = scan.nextDouble();
+				scan.nextLine();
+				
+				System.out.print("	↪ 3º valor: ");
+				double terValor = scan.nextDouble();
+				scan.nextLine();
+				
+				double media = (priValor*2.0 + segValor*3.0 + terValor*5.0) /10.0;
+				System.out.printf("%nMédia do %dº caso: %.1f%n%n", i, media);
 			
 		}
 		
